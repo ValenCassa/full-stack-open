@@ -24,7 +24,7 @@ const App = (props) => {
   }
   
   const handlePoint = () => {
-    setPoint({...point, [selected]: point[selected] + 1})
+    setPoint({...point, [selected]: point[selected] += 1})
   }
   
 
